@@ -4,34 +4,65 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Menu</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 </head>
-<body>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              <a href="index.html">Food, LLC</a>
+            </div>
 
-<h1>Our menu</h1>
-<div class="row">
-  <div class="col-lg-4 col-md-6 col-sm-12">
-    <section>
-      <div class="sectionTitle st1">Chicken</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      </p>
-    </section>
-  </div>
-  <div class="col-lg-4 col-md-6 col-sm-12">
-  	<section>
-    	<div class="sectionTitle st2">Beef</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-       </p>
-    </section>
-  </div>
-  <div class="col-lg-4 col-md-12 col-sm-12">
-  	<section>
-    	<div class="sectionTitle st3">Sushi</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      </p>
-    </section>
-  </div>
-</div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class="visible-xs text-center">
+                <span>Chicken</span>
+              </li>
+              <li class="visible-xs text-center">
+                <span>Beef</span>
+              </li>
+              <li class="visible-xs text-center">
+                <span>Sushi</span>
+              </li>
+            </ul><!-- #nav-list -->
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="main-content" class="container">
+      <h1 class="text-center">Our menu</h1>
+      <section class="row">
+        <div id="Chicken" class="menu-item col-xs-12">
+          <h2>Chicken</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc. Mattis enim ut tellus elementum sagittis vitae et. Nunc consequat interdum varius sit amet. Volutpat blandit aliquam etiam erat velit scelerisque in dictum. Mi bibendum neque egestas congue quisque egestas diam. Mi proin sed libero enim sed faucibus turpis in eu. Purus gravida quis blandit turpis cursus in hac habitasse platea. Tellus elementum sagittis vitae et leo duis ut. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Urna nunc id cursus metus aliquam eleifend mi in. Morbi tincidunt ornare massa eget egestas purus. Aliquet nibh praesent tristique magna. Ut porttitor leo a diam sollicitudin tempor. Posuere morbi leo urna molestie at elementum eu facilisis sed. Id diam vel quam elementum pulvinar etiam. Quisque egestas diam in arcu cursus euismod quis. Diam maecenas sed enim ut sem viverra. Diam quis enim lobortis scelerisque fermentum dui faucibus. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. In cursus turpis massa tincidunt dui. Interdum velit laoreet id donec ultrices tincidunt arcu. Neque viverra justo nec ultrices dui sapien eget mi. A diam maecenas sed enim ut sem viverra. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. At augue eget arcu dictum varius. Neque volutpat ac tincidunt vitae semper quis lectus nulla. Vitae semper quis lectus nulla at. Aliquam purus sit amet luctus venenatis lectus. Nunc aliquet bibendum enim facilisis gravida neque convallis.</p>
+        </div>
+        <div id="Beef" class="menu-item col-xs-12">
+          <h2>Beef</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc. Mattis enim ut tellus elementum sagittis vitae et. Nunc consequat interdum varius sit amet. Volutpat blandit aliquam etiam erat velit scelerisque in dictum. Mi bibendum neque egestas congue quisque egestas diam. Mi proin sed libero enim sed faucibus turpis in eu. Purus gravida quis blandit turpis cursus in hac habitasse platea. Tellus elementum sagittis vitae et leo duis ut. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Urna nunc id cursus metus aliquam eleifend mi in. Morbi tincidunt ornare massa eget egestas purus. Aliquet nibh praesent tristique magna. Ut porttitor leo a diam sollicitudin tempor. Posuere morbi leo urna molestie at elementum eu facilisis sed. Id diam vel quam elementum pulvinar etiam. Quisque egestas diam in arcu cursus euismod quis. Diam maecenas sed enim ut sem viverra. Diam quis enim lobortis scelerisque fermentum dui faucibus. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. In cursus turpis massa tincidunt dui. Interdum velit laoreet id donec ultrices tincidunt arcu. Neque viverra justo nec ultrices dui sapien eget mi. A diam maecenas sed enim ut sem viverra. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. At augue eget arcu dictum varius. Neque volutpat ac tincidunt vitae semper quis lectus nulla. Vitae semper quis lectus nulla at. Aliquam purus sit amet luctus venenatis lectus. Nunc aliquet bibendum enim facilisis gravida neque convallis.</p>
+        </div>
+        <div id="Sushi" class="menu-item col-xs-12">
+          <h2>Sushi</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc. Mattis enim ut tellus elementum sagittis vitae et. Nunc consequat interdum varius sit amet. Volutpat blandit aliquam etiam erat velit scelerisque in dictum. Mi bibendum neque egestas congue quisque egestas diam. Mi proin sed libero enim sed faucibus turpis in eu. Purus gravida quis blandit turpis cursus in hac habitasse platea. Tellus elementum sagittis vitae et leo duis ut. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Urna nunc id cursus metus aliquam eleifend mi in. Morbi tincidunt ornare massa eget egestas purus. Aliquet nibh praesent tristique magna. Ut porttitor leo a diam sollicitudin tempor. Posuere morbi leo urna molestie at elementum eu facilisis sed. Id diam vel quam elementum pulvinar etiam. Quisque egestas diam in arcu cursus euismod quis. Diam maecenas sed enim ut sem viverra. Diam quis enim lobortis scelerisque fermentum dui faucibus. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. In cursus turpis massa tincidunt dui. Interdum velit laoreet id donec ultrices tincidunt arcu. Neque viverra justo nec ultrices dui sapien eget mi. A diam maecenas sed enim ut sem viverra. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. At augue eget arcu dictum varius. Neque volutpat ac tincidunt vitae semper quis lectus nulla. Vitae semper quis lectus nulla at. Aliquam purus sit amet luctus venenatis lectus. Nunc aliquet bibendum enim facilisis gravida neque convallis.</p>
+        </div> 
+      </section>
+    </div>
 
-</body>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
